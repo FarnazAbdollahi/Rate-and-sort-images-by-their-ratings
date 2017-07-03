@@ -1,0 +1,75 @@
+body {
+    font-family: 'Century Schoolbook';
+    font-size: 25px;
+    background-color: #E3F2FD;
+    color:#0D47A1;
+    padding: 50px;
+}
+p#showR1,p#showR2,p#showR3,p#showR4 {
+    display: block;
+}
+.img {
+    padding: 5px;
+    border: 2px solid #2196F3;
+    border-collapse: collapse;
+}
+p {
+    display: inline-flex;
+    padding: 5px;
+    border-bottom: 2px solid #E3F2FD;
+    border-collapse: collapse;
+}
+ul {
+    padding: 5px;
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+.rateImg {
+  text-decoration: none;
+  background-image: url('../images/stars.svg');  
+  flex: 0 0 24px;
+  height: 24px;
+  cursor: pointer;
+  background-position: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E3F2FD;
+  border-collapse: collapse;
+}
+.rateImg.Activated {
+    background-position: -24px 0;
+}
+#sorted {
+    display:none;
+    
+}
+#sortBtn {
+    display: none;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #0D47A1;
+    color : #E3F2FD;
+    border-radius: 4px;
+}
+#myBtn { 
+	display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 5px; 
+    z-index: 99; 
+    background-image: url(../images/up1.png); 
+	background-size: cover;
+    cursor: pointer; 
+    padding: 20px; 
+    border-radius: 10px; 
+	border-style: double;
+}
